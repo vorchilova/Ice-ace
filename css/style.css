@@ -700,43 +700,54 @@ figcaption {
 }
 
 
-.form .main-title2 {
+.call .main-title2 {
+  display: inline-block;
   color: #000;
   font-size: 32px;
   font-weight: bold;
   font-family: 'Rubik', sans-serif;
   text-align: center;
-  padding-top: 0px;
-  padding-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+
+.call > .container {
+ width: 360px;
 }
 
 
 form {
-  width: 600px;
+  width: 360px;
   overflow: hidden;
 }
 
 .field {
   float: left;
-  width: 100%;
+  width: 355px;
   margin-bottom: 30px;
 }
 
-.form label {
-  float: left;
-  width: 100px;
+.call label {
+  display: block;
   text-align: left;
-  position: relative;
-  top: 0px;
-  left: 100px;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Rubik', sans-serif;
+  padding-bottom: 5px;
 }
 
-.form input, textarea {
+.call input, textarea {
   width: 350px;
 }
 
-.form textarea {
+.call textarea {
   height: 60px;
+}
+
+.call .btn {
+  margin-bottom: 60px;
 }
 
 /*CSS for instructors*/
