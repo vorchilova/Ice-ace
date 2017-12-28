@@ -681,7 +681,7 @@ figcaption {
 
 .pagination li {
   display: inline-block;
-  padding: 0 5px;
+  padding: 10px 5px 0px 5px;
 }
 
 .pagination a {
@@ -689,7 +689,7 @@ figcaption {
   font-size: 18px;
   font-weight: bold;
   font-family: 'PT Sans', sans-serif;
-   text-decoration: none;
+  text-decoration: none;
 
 }
 
@@ -717,7 +717,7 @@ figcaption {
 }
 
 
-form {
+.call-form {
   width: 360px;
   overflow: hidden;
 }
@@ -762,15 +762,24 @@ form {
   padding-bottom: 20px;
 }
 
-.instructor input {
-  background-image: url(../img/search.png);
-  background-repeat: no-repeat;
-  background-position: 95% 50%;
+.instructor-form {
+  position: relative;
+}
+
+.instructor input[type="search"] {
   width: 640px;
   height: 45px;
   padding: 5px 0px 5px 17px;
   margin-bottom: 40px;
+  
 }
+
+.instructor input[type="image"] {
+  position: absolute;
+  top: 10px;
+  left: 74%;
+}
+
 
 .img-container li {
   display: inline-block;
@@ -780,6 +789,9 @@ form {
   margin-bottom: 60px;
 }
 
+.insructor-photo-list {
+  font-size: 0;
+}
 .instr-tab {
   position: relative;
   display: block;
