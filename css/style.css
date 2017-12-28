@@ -691,9 +691,14 @@ figcaption {
 .curs-item-coast .btn {
   padding: 10px 30px;
 }
+
+.pagination ul {
+  font-size: 0;
+}
+
 .pagination li {
   display: inline-block;
-  padding: 10px 5px 0px 5px;
+  padding: 0px 5px 0px 5px;
 }
 
 .pagination a {
@@ -702,13 +707,28 @@ figcaption {
   font-weight: bold;
   font-family: 'PT Sans', sans-serif;
   text-decoration: none;
-
+  display: inline-block;
 }
 
+
 .arrow-prev {
+  display: inline-block;
+  background-image: url(../img/prev.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: 50% 50%;
+  width: 25px;
+  height: 30px;
 }
 
 .arrow-next {
+  display: inline-block;
+  background-image: url(../img/next.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: 50% 50%;
+  width: 25px;
+  height: 30px;
 }
 
 
