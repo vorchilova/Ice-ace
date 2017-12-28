@@ -449,6 +449,11 @@ ul {
   padding: 45px 5px 80px 5px;
 }
 
+.page-footer > .container {
+ padding-top: 40px;
+ padding-bottom: 20px;
+}
+
 .page-footer {
   overflow: hidden;
   background-image: url(../img/footer.jpg);
@@ -457,9 +462,13 @@ ul {
   height: 300px;
 }
 
+.page-footer .row:last-child {
+  margin-top: 60px;
+}
+
 .social li {
   display: inline-block;
-  padding: 0 17px;
+  padding: 10px 17px;
 }
 
 .page-footer .logo {
@@ -473,11 +482,10 @@ ul {
   float: left;
   width: 270px;
   margin-right: 270px;
-  padding-top: 45px;
 }
 
 .contacts .phone-link {
-  /*text-align: right;*/
+  margin-top: 0;
 }
 
 .mail-link {
@@ -536,11 +544,11 @@ ul {
 .copyright {
   width: 300px;
   float: left;
-  margin-top: 55px;
 }
 
 .nav-footer {
   float: right;
+  width: 615px;
 }
 
 /*CSS for shedule*/
