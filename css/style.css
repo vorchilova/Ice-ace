@@ -598,7 +598,13 @@ ul {
 
 .curs-item-photo {
   width: 250px;
+  height: 200px;
   float:left;
+}
+
+.curs-item-photo img {
+  width: 150px;
+  height: 150px;
 }
 
 figure {
